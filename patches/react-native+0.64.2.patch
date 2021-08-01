@@ -1,0 +1,11 @@
+diff --git a/node_modules/react-native/scripts/find-node.sh b/node_modules/react-native/scripts/find-node.sh
+index 2ef8cf8..c6517c4 100755
+--- a/node_modules/react-native/scripts/find-node.sh
++++ b/node_modules/react-native/scripts/find-node.sh
+@@ -1,4 +1,6 @@
+ #!/bin/bash
++unset PREFIX
++unset npm_config_prefix
+ # Copyright (c) Facebook, Inc. and its affiliates.
+ #
+ # This source code is licensed under the MIT license found in the
